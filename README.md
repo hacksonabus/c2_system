@@ -1,4 +1,4 @@
-# Minimal Client/Server (Command + Control Demo)
+# Minimal Server/Agent (Command + Control) with some data persistance
 
 ## Components
 - `server.py` — Flask + SQLite server to manage agents and commands.
@@ -20,3 +20,6 @@ List agents:
 ```bash
 curl http://localhost:5000/list_agents
 ```
+
+## Note
+This is far from being a complete/useful implementation. There is NO security in place.
