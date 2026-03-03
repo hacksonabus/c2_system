@@ -1,9 +1,9 @@
 # Minimal Server/Agent (Command + Control) with some data persistance
 
 ## Components
-- `server.py` — Flask + SQLite server to manage agents and commands.
-- `agent.py` — Python agent that polls the server and executes commands.
-- `agent.go` — Golang agent that polls the server and executes commands.
+- `server.py` - Flask + SQLite server to manage agents and commands.
+- `agent.py` - Python agent that polls the server and executes commands.
+- `agent.go` - Golang agent that polls the server and executes commands.
 
 ## Setup
 Server
