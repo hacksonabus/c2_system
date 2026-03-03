@@ -6,7 +6,7 @@
 - `agent.go` — Golang agent that polls the server and executes commands.
 
 ## Setup
-### Server
+Server
 ```bash
 pip install flask requests
 python3 server.py
